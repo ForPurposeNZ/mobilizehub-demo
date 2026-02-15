@@ -29,9 +29,9 @@ export function Navbar(props: Setting) {
         <Link href="/">
           <div className="flex items-center gap-1.5">
             <Logo size={24} />
-            <p className="font text-center text-xl font-extrabold uppercase font-stretch-condensed">
+            {/* <p className="font text-center text-xl font-extrabold uppercase font-stretch-condensed">
               Advocate
-            </p>
+            </p> */}
           </div>
         </Link>
 
@@ -51,7 +51,7 @@ export function Navbar(props: Setting) {
             {isMobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
 
-          <NavigationMenu viewport={false} className="hidden font-semibold md:flex gap-2">
+          <NavigationMenu viewport={false} className="hidden gap-2 font-semibold md:flex">
             <NavigationMenuList>
               {props.navItems?.map((item, index) => (
                 <NavigationMenuItem key={index}>

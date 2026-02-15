@@ -6,7 +6,9 @@ This is a fork of Ryans Mobilizehub demo project:
 
 It contains customizations for For Purpose:
 
-- Updated logo svg and removed text
+- Updated const values - siteName etc
+- Updated logo svg 
+- Remove hard coded text from logo (various location)
 - Removed hard coded white body background
 - Changed background color to FP yellow
 

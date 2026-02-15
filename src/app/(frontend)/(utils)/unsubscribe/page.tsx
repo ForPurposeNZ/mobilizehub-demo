@@ -90,9 +90,9 @@ export default function NextPage({ searchParams }: { searchParams: Promise<{ tok
         <Link href="/">
           <div className="flex items-center gap-1">
             <Logo size={20} />
-            <p className="font text-center text-base font-extrabold uppercase font-stretch-condensed">
+            {/* <p className="font text-center text-base font-extrabold uppercase font-stretch-condensed">
               Advocate
-            </p>
+            </p> */}
           </div>
         </Link>
       </div>

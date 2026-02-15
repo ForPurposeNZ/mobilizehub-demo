@@ -16,9 +16,9 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
   const { children } = props
 
   return (
-    <html lang="en" className="min-h-screen bg-white antialiased" suppressHydrationWarning>
+    <html lang="en" className="min-h-screen antialiased" suppressHydrationWarning>
       <body
-        className={`${inter.className} text-foreground relative flex min-h-screen w-full flex-col bg-white font-sans antialiased`}
+        className={`${inter.className} text-foreground relative flex min-h-screen w-full flex-col font-sans antialiased`}
       >
         {children}
         <Toaster richColors position="top-center" theme="light" />

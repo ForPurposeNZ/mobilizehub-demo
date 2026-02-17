@@ -444,8 +444,8 @@ export const mobilizehub = mobilizehubPlugin({
   },
   email: resendAdapter({
     apiKey: process.env.RESEND_API_KEY || '',
-    defaultFromAddress: 'mail@ryanmearns.com',
-    defaultFromName: 'Ryan Mearns',
+    defaultFromAddress: 'contact@forpurpose.nz',
+    defaultFromName: 'For Purpose',
     render: renderEmailTemplate,
     webhookSecret: process.env.RESEND_WEBHOOK_SECRET || '',
   }),

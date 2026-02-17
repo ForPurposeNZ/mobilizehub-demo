@@ -7,9 +7,9 @@ import './styles.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Advocate - Change Through Collective Action',
+  title: 'For Purpose',
   description:
-    'Join Advocate to connect with like-minded individuals, amplify your voice, and drive meaningful change in your community through collective action.',
+    'For Purpose is a platform that connects individuals with non-profit organizations, allowing them to discover and support causes they care about. Our mission is to empower people to make a positive impact in their communities and around the world by providing a seamless way to find and contribute to meaningful initiatives.',
 }
 
 export default async function RootLayout(props: { children: React.ReactNode }) {
